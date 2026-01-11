@@ -41,9 +41,9 @@ from anuite_hesaplamalari import (
     nominalden_efektife
 )
 
-donem_sonu_anuite(1000, 0.10, 5)
-donem_basi_anuite(1000, 0.10, 5)
-bilesik_anuite(500, 0.12, 12, 4, 10)
+donem_sonu_anuite_bugunku_deger(1000, 0.10, 5)
+donem_basi_anuite_bugunku_deger(1000, 0.10, 5)
+bilesik_anuite_donem_sonu_bugunku_deger(500, 0.12, 12, 4, 10)
 ertelenmis_anuite(1000, 0.08, 5, 3)
 nominalden_efektife(0.12, 12)
 
