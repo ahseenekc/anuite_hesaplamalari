@@ -27,25 +27,26 @@
 ## Kurulum / Çalıştırma Adımları
 
 ```bash
-git clone https://github.com/kullanici_adi/anuite_hesaplamalari.git
+git clone https://github.com/ahseenekc/anuite_hesaplamalari.git
 cd anuite_hesaplamalari
 
 ---
 
-## Örnek Kullanım
+# Örnek Kullanım
+
 from anuite_hesaplamalari import (
-    donem_sonu_anuite,
-    donem_basi_anuite,
-    bilesik_anuite,
+    donem_sonu_anuite_bugunku_deger,
+    donem_basi_anuite_bugunku_deger,
+    bilesik_anuite_donem_sonu_bugunku_deger,
     ertelenmis_anuite,
     nominalden_efektife
 )
 
-donem_sonu_anuite_bugunku_deger(1000, 0.10, 5)
-donem_basi_anuite_bugunku_deger(1000, 0.10, 5)
-bilesik_anuite_donem_sonu_bugunku_deger(500, 0.12, 12, 4, 10)
-ertelenmis_anuite(1000, 0.08, 5, 3)
-nominalden_efektife(0.12, 12)
+print(donem_sonu_anuite_bugunku_deger(1000, 0.10, 5))
+print(donem_basi_anuite_bugunku_deger(1000, 0.10, 5))
+print(bilesik_anuite_donem_sonu_bugunku_deger(500, 0.12, 12, 4))
+print(ertelenmis_anuite(1000, 0.08, 5, 3))
+print(nominalden_efektife(0.12, 12))
 
 ---
 ### Parametrelerin Anlamları
