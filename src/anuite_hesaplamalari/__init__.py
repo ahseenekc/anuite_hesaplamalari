@@ -1,6 +1,6 @@
-from .donem_sonu import donem_sonu_anuite
-from .donem_basi import donem_basi_anuite
-from .bilesik_anuite import bilesik_anuite
+from .donem_sonu import donem_sonu_anuite_bugunku_deger
+from .donem_basi import donem_basi_anuite_bugunku_deger
+from .bilesik_anuite import bilesik_anuite_donem_sonu_bugunku_deger
 
 from .gelismis_anuite import (
     ertelenmis_anuite,
