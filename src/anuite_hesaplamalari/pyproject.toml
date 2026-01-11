@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anuite-hesaplamalari"
+version = "0.1.0"
+description = "Anüite hesaplamaları için Python paketi"
+authors = [
+  { name="Ahsen Ekici" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
