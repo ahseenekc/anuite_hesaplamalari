@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: anuite-hesaplamalari
+Version: 0.1.1
+Summary: Anüite hesaplamaları için Python paketi
+Author: Ahsen Ekici
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # Anüite Hesaplamaları
 
 ## Geliştirici Hakkında
@@ -32,11 +40,7 @@ cd anuite_hesaplamalari
 
 ---
 
-<<<<<<< HEAD
-# Örnek Kullanım
-=======
 ## Örnek Kullanım
->>>>>>> 593b297 (Silinen dist ve egg-info dosyaları eklendi)
 
 from anuite_hesaplamalari import (
     donem_sonu_anuite_bugunku_deger,
@@ -51,10 +55,6 @@ print(donem_basi_anuite_bugunku_deger(1000, 0.10, 5))
 print(bilesik_anuite_donem_sonu_bugunku_deger(500, 0.12, 12, 4))
 print(ertelenmis_anuite(1000, 0.08, 5, 3))
 print(nominalden_efektife(0.12, 12))
-<<<<<<< HEAD
-
-=======
->>>>>>> 593b297 (Silinen dist ve egg-info dosyaları eklendi)
 ---
 ### Parametrelerin Anlamları
 
